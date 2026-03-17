@@ -49,7 +49,7 @@ Open `.env` and paste **ONE** of the following URLs. The application will automa
 
 ```env
 # Option A: NeonDB (Serverless Postgres) - Recommended for Cloud
-DATABASE_URL=postgresql://user:pass@ep-hostname.aws.neon.tech/mydb?sslmode=require
+# DATABASE_URL=postgresql://user:pass@ep-hostname.aws.neon.tech/mydb?sslmode=require
 
 # Option B: Standard PostgreSQL - For VPS / Local Docker
 # DATABASE_URL=postgresql://user:password@localhost:5432/mydb
@@ -120,6 +120,7 @@ This will start a local server and automatically provide a link (usually `https:
 
 <h2 align="center">📜 License</h2>
 
-This project is licensed under the **MIT License** - see the `LICENSE` file for details.
-<br>
-**Copyright &copy; 2026 Deepak**
+<p align="center">
+This project is licensed under the <strong>MIT License</strong> - see the <code>LICENSE</code> file for details.<br>
+<strong>Copyright &copy; 2026 Deepak</strong>
+</p>
