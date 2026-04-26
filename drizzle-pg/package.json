@@ -12,7 +12,7 @@
   "type": "commonjs",
   "dependencies": {
     "dotenv": "^17.3.1",
-    "drizzle-orm": "^0.45.1",
+    "drizzle-orm": "^0.45.2",
     "pg": "^8.20.0"
   },
   "devDependencies": {
@@ -20,5 +20,8 @@
     "drizzle-kit": "^0.31.10",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
+  },
+  "overrides": {
+    "esbuild": "^0.25.12"
   }
 }
